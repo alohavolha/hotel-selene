@@ -1,0 +1,669 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /*background:blue;*/
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  /* set up the footer and bottom margin */
+  margin-bottom: 415px;
+}
+body * {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn:focus,
+.btn:active,
+.btn:checked,
+.button:focus,
+.btn-primary
+ {
+  outline: none;
+  box-shadow: none;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+  outline: none;
+  background-color: white;
+}
+.container {
+  max-width: 960px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 415px;
+  background-color: #2B3C4C;
+  color: white;
+  padding-top: 74px;
+  margin-top: 100px;
+}
+.container-1 {
+  height: 150px;
+}
+.footer .container-2 {
+  background-color: white;
+  padding-top: 60px;
+  color: #2B3C4C;
+  max-width: 100%;
+  height: 215px;
+}
+/*VIDEO VIDEO VIDEO VIDEO VIDEO*/
+.demo-video-wrapper {
+	background-image: url(https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.jpg);
+  height: 800px;
+}
+.video-hero--content {
+	position: relative;
+	text-align: center;
+	color: #FFF;
+  margin: 150px 0;
+	text-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+/* social media */
+.media-object {
+  float: left;
+  padding-right: 15px;
+}
+.media-object:last-child {
+  padding-right: none;
+}
+.row {
+  margin: auto 0 auto 0;
+}
+.logo {
+  position: absolute;
+  top: 140px;
+  left: 40%;
+}
+#reserve-now {
+  background: none;
+  border: 1px solid white;
+  border-radius: 0;
+  margin-left: 10px;
+  margin-right: 13em;
+  padding: 10px 26px;
+  text-transform: uppercase;
+  outline: none;
+}
+#reserve-now:hover,
+#reserve-now:focus {
+  background-color: white;
+  color: #2B3C4C;
+}
+.navbar {
+  background-color: #2B3C4C;
+  margin-bottom: 0;
+}
+.navbar a {
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navbar-nav>li>a {
+  padding-top: 30px;
+}
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav>li>a:active {
+  background-color: #2B3C4C;
+  text-decoration: underline;
+  color: white;
+}
+.active {
+  text-decoration: underline;
+}
+.glyphicon-search {
+  color: white;
+  font-size: 1.2em;
+  padding: 30px 30px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+#make-a-reservation {
+  padding-top: 30px;
+  color: white;
+  height: 350px;
+  background-color: rgba(43,60,76, 0.5);
+  position: absolute;
+  top:400px;
+  left: 0;
+  width: 100%;
+}
+.container1-4th {
+  width: 25%;
+  float: left;
+}
+.arrow {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+.uppercase-and-border {
+  color: rgba(43,60,76,1);
+  line-height: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid #2B3C4C;
+}
+.uppercase-and-border:hover {
+background-color: rgba(43,60,76,1);
+color: white;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+.parallax-container {
+  z-index: 7;
+}
+/* burger-menu transition */
+.icon-bar {
+  background-color: white;
+  transition: all 0.8s;
+  font-size: 40px;
+}
+.top-bar {
+  -webkit-transform: translateX(20px);
+   -moz-transform: translateX(20px);
+   -ms-transform: translateX(20px);
+   -o-transform: translateX(20px);
+   transform: translateX(20px);
+   font-size: 40px;
+}
+.bottom-bar {
+  -webkit-transform: translateX(-20px);
+   -moz-transform: translateX(-20px);
+   -ms-transform: translateX(-20px);
+   -o-transform: translateX(-20px);
+   transform: translateX(-20px);
+   font-size: 40px;
+}
+.navbar-toggle.collapsed>.top-bar {
+  transform: translate(0);
+}
+.navbar-toggle.collapsed>.bottom-bar {
+  transform: translate(0);
+}
+.btn-primary {
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid white;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: white;
+  color: rgba(43, 60, 76, 1);;
+}
+
+/*Make a reservation section*/
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+#make-a-reservation p {
+  line-height: 3em;
+  color: white;
+}
+#make-a-reservation a:link {
+  text-transform: none;
+  text-decoration: none;
+}
+.form-control {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 20px;
+  color: white;
+  width: 197px;
+  margin-top: 10px;
+
+}
+.form-control:hover,
+.form-control:active {
+  box-shadow: none;
+  border: 1px solid white;
+  color: white;
+}
+.btn-special.btn.dropdown-toggle{
+  margin-left: 15px;
+  margin-bottom: 20px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 0;
+  padding: 10px 30px 10px 10px;
+  letter-spacing: 1px;
+}
+.btn-special.btn.dropdown-toggle:hover,
+.btn-special.btn.dropdown-toggle:active,
+.btn-special.btn.dropdown-toggle:focus,
+.btn-special.btn.dropdown-toggle:visited {
+  color: white;
+  box-shadow: none;
+}
+.dropdown-menu {
+  border-radius: 0;
+  margin: -20px 16px;
+  background-color: #2B3C4C;
+  width: 200px;
+}
+.dropdown-menu>li>a {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.dropdown-menu>li>a:hover {
+  background-color: white;
+}
+.bigger {
+  font-size: 1.5em;
+}
+
+.row-with-images {
+  margin: 60px auto;
+}
+/*FOOTER*/
+
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: #64BCCB;
+}
+.select {
+  width:200px;
+  height:40px;
+  border:1px solid #ddd;
+  line-height:30px;
+  position:relative;
+  margin-bottom:40px;
+}
+
+.select span{
+  display:block;
+  font-size:12px;
+  padding:0 10px;
+}
+
+.select ul{
+  display:none;
+  background-color: white;
+  border:1px solid #ddd;
+  min-width:300px;
+  position:absolute;
+  top:100%;
+  left:0;
+  list-style-type:none;
+  margin:0;padding:0;
+  z-index:10;
+}
+.select ul > li{font-size:1.2em;}
+.select ul > li{
+  color:#333;
+  display:block;
+  padding:2px 8px;
+  text-decoration:none;
+  line-height:24px;}
+
+.select ul > li:hover,
+.select ul > li:focus,
+.select ul > li:active {
+  color: white;
+  background: rgba(43,60,76,1);
+}
+
+#datepicker {
+  line-height: 2em;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.calendar1 {
+  margin-left: 2px;
+}
+.calendar2 {
+  margin-top: 20px;
+}
+input#datepicker:active,
+input#datepicker:focus,
+input#datepicker:hover {
+  outline: none;
+}
+
+::-webkit-datetime-edit {
+  padding: 0.5em 1em;
+}
+::-webkit-datetime-edit-text,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-year-field {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+::-webkit-datetime-edit-text:active,
+::-webkit-datetime-edit-month-field:active,
+::-webkit-datetime-edit-day-field:active,
+::-webkit-datetime-edit-year-field:active,
+::-webkit-datetime-edit-text:focus,
+::-webkit-datetime-edit-month-field:focus,
+::-webkit-datetime-edit-day-field:focus,
+::-webkit-datetime-edit-year-field:focus
+ {
+  color: #64BCCB;
+  border: none;
+  background-color: transparent;
+}
+
+::-webkit-calendar-picker-indicator {
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+}
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input#singleCheckbox1.styled {
+  margin-left: 0px;
+}
+input#singleCheckbox1,
+input#singleCheckbox2
+ {
+  padding: 20px;
+}
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + label span {
+    background-color: white;
+}
+.container1-4th a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.uppercase {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.7em;
+}
+#sign-up {
+  width:300px;
+  height: 40px;
+  border: 1px solid grey;
+}
+#sign-up:active,
+#sign-up:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+
+}
+
+
+/*A B O U T A B O U T A B O U T A B O U T A B O U T A B O U T A B O U T */
+.container-about-logo-bg {
+    background-color: rgba(43,60,76,1);
+    height: 350px;
+}
+.about-hotel {
+  margin-bottom: 50px;
+  border-top: 1px solid #778491;
+  border-bottom: 1px solid #778491;
+  height: 6.5em;
+  padding-left: 200px;
+}
+.modified-padding-left {
+  padding-left: 200px;
+}
+.modified-padding-left h3,
+.modified-padding-right h3{
+  margin-bottom: 40px;
+}
+.hotel-description {
+  line-height: 1.7em;
+  font-size: 1.1em;
+}
+.vision {
+  border-top: 1px solid #778491;
+  padding-left: 200px;
+}
+.enroll {
+  background-color: rgba(43,60,76,1);
+}
+.tab-content {
+  height: 450px;
+}
+.tab-pane h3 {
+  margin-top: -2px;
+  margin-bottom: 50px;
+  color: #333335;
+}
+.enroll-moto>h5 {
+ text-transform: uppercase;
+ color: rgb (34,34,34);
+ font-weight: 300;
+}
+.tab-content {
+  margin-top: 40px;
+}
+.nav.nav-tabs {
+  margin-top: 20px;
+}
+.thick-line {
+  position: relative;
+  top:40px;
+  left:15px;
+  height:2px;
+  width: 80px;
+  background-color: #333333;
+}
+
+/*C O N T A C T C O N T A C T C O N T A C T C O N T A C T C O N T A C T*/
+.container-contact {
+  margin: 30px;
+}
+.send {
+  background-color: rgba(43,60,76,1);
+  border: none;
+  border: 1px solid rgba(43,60,76,1);
+}
+.send:active,
+.send:hover,
+.send:focus {
+  background-color: white;
+}
+.container-contact input {
+  color: #ececec;
+  border: 1px solid rgb (34,34,34);
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+  border: 1px solid #ececec;
+  color: rgba(43,60,76,1);
+  box-shadow: none;
+}
+.container-contact input {
+  box-shadow: none;
+}
+.form-horizontal {
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+/* media queries /* media queries /* media queries */
+
+@media (max-width: 1200px) {
+  .modified-padding-left {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1049px) {
+.navbar-header {
+    float: none;
+    }
+.navbar-left, .navbar-right {
+    float: none !important;
+}
+.navbar-toggle {
+  padding-top: 30px;
+  display: block;
+  z-index: 1;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+	margin-top: 7.5px;
+	}
+.navbar-nav>li {
+  float: none;
+  }
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.collapse.in {
+  display:block !important;
+  background-color: rgba(43,60,76,0.5);
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-1 { height: 200px;}
+  #make-a-reservation {
+    position: relative;
+    top: 1px;
+    height: 100%;
+    background-color: rgba(43,60,76,1);
+}
+  #make-a-reservation p:first-child {
+    padding-top: 15px;
+}
+  .container1-4th {
+    float: none;
+    width: 100%;
+}
+  /*  MODIFYING THE VIDEO   */
+  .demo-video-wrapper  {
+    height: 400px;
+}
+h5.uppercase-and-border {
+  margin-top: 20px;
+}
+/*A B O U T A B O U T A B O U T A B O U T A B O U T A B O U T A B O U T */
+.about-hotel {
+  padding-left: 130px;
+}
+.modified-padding-left,
+.modified-padding-right {
+  padding-left: 30px;
+}
+
+.hotel-description {
+  font-size: 1.7em;
+}
+
+@media only screen and (max-width: 768px) {
+.container-1 { height: 300px;}
+#make-a-reservation {
+    position: relative;
+    top: 1px;
+    height: 100%;
+}
+.logo {
+    top: 80px;
+}
+#reserve-now {
+    display: none;
+}
+.container1-4th {
+    width: 50%;
+}
+.logo {
+    width: 30%;
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar a {
+  color: black;
+}
+
+.navbar .navbar-toggle {
+  z-index: 2;
+}
+
+.navbar-toggle .icon-bar {
+  width: 40px;
+  height: 6px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 6px;
+}
+#main {
+  height:500px;
+  background-color:red;
+}
+
+#below-main {
+  height:1000px;
+  background-color:#eee;
+}
+.demo-video-wrapper,
+.jquery-background-video  {
+  display: none;
+}
+
+/*A B O U T A B O U T A B O U T A B O U T A B O U T A B O U T A B O U T */
+
+.about-hotel {
+  padding-left: 20px;
+}
+.modified-padding-left,
+.modified-padding-right {
+  padding-left: 20px;
+}
+.hotel-description {
+  font-size: 1.2em;
+}
+/*VIDEO CREDITS :
+《Santorini from the sky》
+Aerial video of Santorini 's amazing landscape by a different angle.
+Camera: DJI Phantom 3
+email: nproplus@gmail.com*/
