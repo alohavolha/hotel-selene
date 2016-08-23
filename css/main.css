@@ -524,6 +524,7 @@ input[type="checkbox"]:checked + label span {
     padding-left: 100px;
   }
 }
+
 @media (max-width: 1049px) {
 .navbar-header {
     float: none;
@@ -565,8 +566,8 @@ input[type="checkbox"]:checked + label span {
 }
 
 @media only screen and (max-width: 1000px) {
-  .container-1 { height: 200px;}
-  #make-a-reservation {
+.container-1 { height: 200px;}
+#make-a-reservation {
     position: relative;
     top: 1px;
     height: 100%;
@@ -594,11 +595,14 @@ h5.uppercase-and-border {
 .modified-padding-right {
   padding-left: 30px;
 }
-
 .hotel-description {
   font-size: 1.7em;
 }
-
+.welcome-line {
+  position: relative;
+  top:80px;
+  left:15px;
+}
 @media only screen and (max-width: 768px) {
 .container-1 { height: 300px;}
 #make-a-reservation {
